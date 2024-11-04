@@ -1,0 +1,77 @@
+/* Define a fonte padrão e o estilo do body */
+body {
+    font-family: 'Arial', sans-serif; /* Você pode substituir por outra fonte, como 'Verdana' ou 'Georgia' */
+    margin: 0;
+    padding: 0;
+    background-color: #ffebee; /* Rosa claro */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #e91e63; /* Rosa mais escuro */
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilo da navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco para o conteúdo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #e91e63; /* Rosa mais escuro */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo dos inputs e textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    margin: 10px 0; /* Margem */
+    border: 1px solid #ccc; /* Borda suave */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-family: inherit; /* Herda a fonte do body */
+}
+
+/* Estilo do botão */
+button {
+    background-color: #e91e63; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+}
+
+button:hover {
+    background-color: #d81b60; /* Cor mais escura ao passar o mouse */
+}
